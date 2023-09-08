@@ -71,3 +71,10 @@ document.querySelectorAll(".elements").forEach((elem)=>{
 
 skewcircle();
 circleMouseFollower();
+const mobile_btn = document.querySelector(".mobile-navbar-btn");
+const header = document.querySelector(".nav-container");
+console.log(header)
+mobile_btn.addEventListener("click",()=>{
+
+   header.classList.toggle("active");
+})
